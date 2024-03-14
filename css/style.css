@@ -46,7 +46,6 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-left: 20px;
     color: #fff;
 }
 
@@ -56,10 +55,20 @@
 }
 
 
+.letstestSection{
+    height: 450px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.422),rgba(0, 0, 0, 0.503)),url("../img/about-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
 .imageCheckinginstednlogo{
     background-position: center;
     background-repeat: no-repeat;
-    width: 150px!important;
+    /* width: 400px!important; */
 }
 .imageOne{
     background:linear-gradient(rgba(0, 0, 0, 0.366),rgba(0, 0, 0, 0.423)),url("../img/about-1.jpg");
@@ -68,7 +77,7 @@
     background:linear-gradient(rgba(0, 0, 0, 0.366),rgba(0, 0, 0, 0.423)),url("../img/about-2.jpg");
 }
 .imageThree{
-    background:linear-gradient(rgba(0, 0, 0, 0.366),rgba(0, 0, 0, 0.423)),url("../img/about-3.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.366),rgba(0, 0, 0, 0.423)),url("../img/about-4.jpg");
 }
 .imageFour{
     background:linear-gradient(rgba(0, 0, 0, 0.366),rgba(0, 0, 0, 0.423)),url("../img/about-4.jpg");
@@ -244,18 +253,18 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     transition: .5s;
 }
-
+/* 
 .service-item:hover {
     background: var(--primary);
-}
+} */
 
 .service-item * {
     transition: .5s;
 }
-
+/* 
 .service-item:hover * {
     color: var(--light) !important;
-}
+} */
 
 
 /*** Food Menu ***/
